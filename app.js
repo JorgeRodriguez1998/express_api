@@ -6,6 +6,7 @@ app.use(express.json()) // Indicamos que usaremos JSON
 // Puerto en que vamos a ver nuestra app: localhost:3000
 const port = 3000
 
+//Esto es un endpoint
 //routes
 // Methods HTTP: GET, POST, PUT, DELETE
 app.get('/v1/explorers', (req, res) => {
